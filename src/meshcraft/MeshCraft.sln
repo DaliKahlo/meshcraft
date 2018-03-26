@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "App", "MeshWorks.vcxproj", "{824EBD0B-2DD7-4538-AE95-F109073264B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mesh", "..\mesh\x86\mesh.vcxproj", "{B1DC6964-62D8-4740-A637-CBBF8CDF27F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcp", "..\pcp\pcp.vcxproj", "{12AB6D5B-618A-4D01-979F-7B9270839F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{824EBD0B-2DD7-4538-AE95-F109073264B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{824EBD0B-2DD7-4538-AE95-F109073264B6}.Debug|Win32.Build.0 = Debug|Win32
+		{824EBD0B-2DD7-4538-AE95-F109073264B6}.Release|Win32.ActiveCfg = Release|Win32
+		{824EBD0B-2DD7-4538-AE95-F109073264B6}.Release|Win32.Build.0 = Release|Win32
+		{B1DC6964-62D8-4740-A637-CBBF8CDF27F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1DC6964-62D8-4740-A637-CBBF8CDF27F5}.Debug|Win32.Build.0 = Debug|Win32
+		{B1DC6964-62D8-4740-A637-CBBF8CDF27F5}.Release|Win32.ActiveCfg = Release|Win32
+		{B1DC6964-62D8-4740-A637-CBBF8CDF27F5}.Release|Win32.Build.0 = Release|Win32
+		{12AB6D5B-618A-4D01-979F-7B9270839F3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12AB6D5B-618A-4D01-979F-7B9270839F3A}.Debug|Win32.Build.0 = Debug|Win32
+		{12AB6D5B-618A-4D01-979F-7B9270839F3A}.Release|Win32.ActiveCfg = Release|Win32
+		{12AB6D5B-618A-4D01-979F-7B9270839F3A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

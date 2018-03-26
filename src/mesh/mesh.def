@@ -1,0 +1,6 @@
+; mesh.def : Declares the module parameters for the DLL.
+
+LIBRARY      "mesh"
+
+EXPORTS
+    ; Explicit exports can go here

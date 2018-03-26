@@ -1,0 +1,40 @@
+//
+// EXAMPLE APP.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+
+STRINGTABLE 
+BEGIN
+    IDS_ELEMENT_SIZE_TOO_LARGE 	
+			    "Element size is too large for the model. Please enter a smaller element size."
+    IDS_PLEASE_ENTER_POSITIVE_FLOAT_RANGE 
+			    "Please enter a positive value."
+    IDS_INVALID_CHAR_IN_ELEMENT_SIZE
+			    "Please correct the invalid character in element size."
+    IDS_INVALID_CHAR_IN_MIN_ELEMENT_SIZE
+			    "Please correct the invalid character in minimum element size."
+    IDS_PLEASE_ENTER_A_NUMBER_BETWEEN_FORMAT_FOR 
+                            "Please enter a number between %g and %g for %s"
+    IDS_GLOBAL_SIZE_FACTOR  "Mesh gradation factor."
+	IDS_INVALID_VERTEX_IDENTIFIERS
+				"Please correct the invalid character in mesh vertex identifier. Only number and comma are recognized."
+	IDS_EMPTY_NODEIDS_OR_SHAPETHRESHOLD
+				"Please input a node identifier or element quality threshold. Use comma to seperate in case of two or more identifiers."
+	IDS_INVALID_SHAPE_THRESHOLD
+				"Please input an element quality value between 0.0 and 0.1."
+	IDS_INVALID_DISTANCE_TO_ORIGINAL_MESH
+				"Please input a positive distance to mesh value."
+	IDS_INVALID_MAX_HOLE_DIAMETER
+				"Please input the max diameter of holes to be filled."
+	IDS_INVALID_FEATURE_ANGLE
+				"Please input a feature angle value in degree."
+END
